@@ -36,11 +36,13 @@ void infixToPostfix(char* exp) {
         } else if (*e == '(') {
             push(*e);
         } else if (*e == ')') {
-            while ((x = pop()) != '(') {
+            while (top != -1 && (x = pop()) != '(') {
                 printf("%c", x);
             }
         } else {
-            while (top != -1 && priority(stack[top]) >= priority(*e)) {
+            while (top != -1 &&
+                  (priority(stack[top]) > priority(*e) ||
+                  (priority(stack[top]) == priority(*e) && *e != '^'))) {
                 printf("%c", pop());
             }
             push(*e);

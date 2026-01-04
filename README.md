@@ -6,3 +6,4 @@
 
 ## Açıklama
 Bu repository, Veri Yapıları dersi dönem sonu ödev konularını
+konu başlıklarına göre düzenlenmiş dosyalar halinde içermektedir.

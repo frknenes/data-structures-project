@@ -1,4 +1,8 @@
-Öğrenci Adı: Furkan Enes Gültekin  
-Öğrenci Numarası: 2210206018
+# Data Structures Project
 
-Bu repository, Veri Yapıları dersi dönem sonu ödev konularını dosya şeklinde içermektedir.
+## Öğrenci Bilgileri
+- Ad Soyad: Furkan Enes Gültekin
+- Öğrenci Numarası: 2210206018
+
+## Açıklama
+Bu repository, Veri Yapıları dersi dönem sonu ödev konularını
